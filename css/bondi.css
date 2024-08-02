@@ -150,15 +150,51 @@ ul{
     border:none;
     border-bottom:1px solid white ;
     padding:.5rem 0 ;
-
-
 }
 .form input[type="email"]::placeholder{
     color:white;
-
 }
 .form input[type="submit"]{
     background-color: var(--dark-color);
     color:var(--yellow-color);
-
+}
+/* end form  */
+/* start footer  */
+.footer{
+    background-color: var(--dark-color);
+}
+.footer .info .green span{
+    color: var(--green-color);
+}
+.footer .info .yellow span{
+    color:var(--yellow-color);
+}
+.footer h4 {
+    color:white;
+    text-transform: capitalize;
+}
+.footer .face {
+    background-color: #1877f2 ;
+}
+.footer .face svg{
+    background-color: #1877f2 ;
+    color:white;
+}
+.footer .twit {
+    background-color:#1da1f2;
+}
+.footer .twit svg {
+    color:white;
+}
+.footer .you {
+    background-color:#ff0000;
+}
+.footer .you svg {
+    color:white;
+}
+.footer .in {
+    background-color:#0a66c2;
+}
+.footer .in svg {
+    color:white;
 }
